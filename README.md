@@ -120,7 +120,7 @@ For the modeling process we tried these base and ensemble models to obtain a mod
   - Voting Regressor
   - CatBoost Regressor
   
-Please refer to: <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Jupyter%20Notebook/Modeling_Final%20with%20CatBoost%20(without%20Onehot).ipynb'>Modeling_Final with CatBoost (without Onehot).jpynb</a>
+Please refer to: <a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Jupyter%20Notebook/Modeling_Final%20with%20CatBoost%20(without%20Onehot).ipynb'>Modeling_Final with CatBoost (without Onehot).jpynb</a>
 
 ---
   
@@ -128,7 +128,7 @@ Please refer to: <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project
 
 We use CatBoost Regressor as our final model as it gives the best r-squared (R²) results in both training and validation set and the lowest MAE compared with other models.
 <p float="center ">
-<img src="https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Model/Model.png" width="500" />
+<img src="https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Model/Model.png" width="500" />
   
 Please refer to: <a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Jupyter%20Notebook/Modeling_Final%20with%20CatBoost%20(without%20Onehot).ipynb'>Modeling_Final with CatBoost (without Onehot).jpynb</a>
 
