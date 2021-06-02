@@ -75,16 +75,17 @@ def result():
             form_input = request.form
             
             df_predict = pd.DataFrame({
-                'BATHRM' : [int(form_input['bathrooms'])],
-                'HF_BATHRM' : [int(form_input['half_bathrooms'])],
-                'ROOMS' : [int(form_input['rooms'])],
-                'BEDRM' : [int(form_input['bedrooms'])],
-                'ayb_age' : [int(form_input['building_age'])],
-                'eyb_age' : [int(form_input['renovation_years'])],
-                'GBA' : [float(form_input['gba'])],
-                'KITCHENS' : [int(form_input['kitchens'])],
-                'FIREPLACES' : [int(form_input['fireplaces'])],
-                'LANDAREA' : [float(form_input['landarea'])],
+                #Int value but changed into float to avoid error if the user inputs the number in float format (e.g., 1.0)
+                'BATHRM' : [float(form_input['bathrooms'])], # Int
+                'HF_BATHRM' : [float(form_input['half_bathrooms'])], # Int
+                'ROOMS' : [float(form_input['rooms'])], # Int
+                'BEDRM' : [float(form_input['bedrooms'])], # Int
+                'ayb_age' : [float(form_input['building_age'])], # Int
+                'eyb_age' : [float(form_input['renovation_years'])], # Int
+                'GBA' : [float(form_input['gba'])], # Int
+                'KITCHENS' : [float(form_input['kitchens'])], # Int
+                'FIREPLACES' : [float(form_input['fireplaces'])], # Int
+                'LANDAREA' : [float(form_input['landarea'])], # Int
                 'LATITUDE' : [float(form_input['latitude'])],
                 'LONGITUDE' : [float(form_input['longitude'])],
                 'AC' : [form_input['ac']],
