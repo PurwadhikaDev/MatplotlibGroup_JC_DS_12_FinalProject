@@ -11,6 +11,7 @@ from model_plots import show_map, show_bar_ward, show_bar_ward_count, show_bar_g
 from sklearn.base import BaseEstimator
 from sklearn.metrics import mean_absolute_error
 
+
 class NoTransformer(BaseEstimator):
     """Passes through data without any change and is compatible with ColumnTransformer class"""
     def fit(self, X, y=None):
@@ -19,9 +20,11 @@ class NoTransformer(BaseEstimator):
     def transform(self, X):
         assert isinstance(X, pd.DataFrame)
         return X
+    
 
 with open('../Model/Final_Model_Catboost_v2.sav' ,'rb') as f:
     model_dict = pickle.load(f)
+    
 
 def count_mae():
     df_train = pd.read_csv('../Data/DF_train.csv')
@@ -32,6 +35,7 @@ def count_mae():
     return mae
 
 MAE = count_mae()
+
 
 app = Flask(__name__)
 
@@ -103,6 +107,7 @@ def result():
   
     except:
         return predict_error()
+
 
 @app.route('/data', methods=['GET', 'POST'])
 def data():
