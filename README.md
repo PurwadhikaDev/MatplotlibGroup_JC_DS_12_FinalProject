@@ -24,10 +24,10 @@ Thus, the project owner wants to address these issues.
 
 ##### Notes :
 For details please refer to 
-<a href="https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Jupyter%20Notebook/Lead%20-%20Residential.ipynb">Lead - Residential.jpynb</a>, 
-<a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Jupyter%20Notebook/Appendix%201.ipynb'>Appendix 1.jpynb</a> 
+<a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Jupyter%20Notebook/Lead%20-%20Residential.ipynb'>Lead - Residential.jpynb</a>, 
+<a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Jupyter%20Notebook/Appendix%201.ipynb'>Appendix 1.jpynb</a> 
 and 
-<a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Jupyter%20Notebook/Appendix%202.ipynb'>Appendix 2.jpynb</a>.
+<a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Jupyter%20Notebook/Appendix%202.ipynb'>Appendix 2.jpynb</a>.
 
 ---
 
@@ -49,8 +49,8 @@ However, due to the limitation of our time budget, we limit the capability of ou
 since Exceptional properties have a price range that is very different than the rest of properties with other grades.
 
 <p float="center ">
-<img src="https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Appendix%20Picture/Figure%2001.png" width="430" />
-<img src="https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Appendix%20Picture/Figure%2002.png" width="500" />
+<img src="https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Appendix%20Picture/Figure%2001.png" width="430" />
+<img src="https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Appendix%20Picture/Figure%2002.png" width="500" />
   
 ## 2. Business Objectives
 
@@ -94,9 +94,9 @@ the right decision in providing loan.
 
 Started with importing the dataset which is DC_properties.csv. Then, we continued to handle missing datapoints, give restriction to the data that will be used for EDA and further processes, remove outliers, and choose relevant features to be used in the modelling phase. This process results in a new clean dataset that would be used for this project.
 
-Clean dataset : <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Data/DF_Residential_v10.csv'>DF_Residential_v10.csv</a> 
+Clean dataset : <a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Data/DF_Residential_v10.csv'>DF_Residential_v10.csv</a> 
 
-Please refer to: <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Jupyter%20Notebook/EDA%20-%20Data%20Preparation.ipynb'>EDA - Data Preparation.jpynb</a>
+Please refer to: <a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Jupyter%20Notebook/EDA%20-%20Data%20Preparation.ipynb'>EDA - Data Preparation.jpynb</a>
 
 ---
   
@@ -104,7 +104,7 @@ Please refer to: <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project
 
 At feature engineering, we focused on relevant features by checking and removing outliers further, encoding categorical columns, merging some categorical value which only have a very little sample, checking the correlation in each features, conducting ANOVA F Test, etc.
 
-Please refer to: <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Jupyter%20Notebook/EDA%20-%20Data%20Preparation.ipynb'>EDA - Data Preparation.jpynb</a>
+Please refer to: <a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Jupyter%20Notebook/EDA%20-%20Data%20Preparation.ipynb'>EDA - Data Preparation.jpynb</a>
 
 ---
   
@@ -130,7 +130,7 @@ We use CatBoost Regressor as our final model as it gives the best r-squared (R²
 <p float="center ">
 <img src="https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Model/Model.png" width="500" />
   
-Please refer to: <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Jupyter%20Notebook/Modeling_Final%20with%20CatBoost%20(without%20Onehot).ipynb'>Modeling_Final with CatBoost (without Onehot).jpynb</a>
+Please refer to: <a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Jupyter%20Notebook/Modeling_Final%20with%20CatBoost%20(without%20Onehot).ipynb'>Modeling_Final with CatBoost (without Onehot).jpynb</a>
 
 ---
   
@@ -138,7 +138,7 @@ Please refer to: <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project
 
 ## 1. Deployment
 
-Please refer to: <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/tree/main/Dashboard'>Dashboard Folder</a>
+Please refer to: <a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/tree/main/Dashboard'>Dashboard Folder</a>
 
 ## 2. Maintenance Plan
 
@@ -146,33 +146,33 @@ We implement batch (offline) learning in our system since we can't obtain new da
 
 
 ## 3. Final Presentation
-Please refer to: <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/tree/main/Presentation'>Presentation Folder</a>
+Please refer to: <a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/tree/main/Presentation'>Presentation Folder</a>
 
 
 ## 4. Project Feedback
-Please refer to: <a href='https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/tree/main/Feedback'>Feedback Folder</a>
+Please refer to: <a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/tree/main/Feedback'>Feedback Folder</a>
 
 ---
 # Webpages
 ---
 HOMEPAGE
 ---
-![](https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Presentation/Webpage%20Screenshots/01-home.png)
+![](https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Presentation/Webpage%20Screenshots/01-home.png)
 
 ABOUT PAGE
 ---
-![](https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Presentation/Webpage%20Screenshots/02-about.png)
+![](https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Presentation/Webpage%20Screenshots/02-about.png)
 
 ESTIMATOR PAGE 
 ---
-![](https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Presentation/Webpage%20Screenshots/04-estimator-form-filled.png)
+![](https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Presentation/Webpage%20Screenshots/04-estimator-form-filled.png)
 
 PREDICTION RESULT
 ---
-![](https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Presentation/Webpage%20Screenshots/05-result.png)
+![](https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Presentation/Webpage%20Screenshots/05-result.png)
 
 INSIGHTS PAGE 
 ---
-![](https://github.com/ls-cy/Purwadhika-JCDS-Final-Project/blob/main/Presentation/Webpage%20Screenshots/06-insights.png)
+![](https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Presentation/Webpage%20Screenshots/06-insights.png)
 ---
 
