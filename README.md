@@ -1,5 +1,5 @@
 ##### DISCLAIMER : THIS PROJECT IS STILL SUBJECT TO REVISION / CHANGE 
-#### UPDATE : The .ipynb files are final, however the documents in 'Deployment' and 'Presentation' folder still subject to revision. (Thursday, June 3rd 2021 16:43)
+#### UPDATE : The .ipynb files are final, however the documents in 'Presentation' folder still subject to revision. (Thursday, June 3rd 2021 16:43)
 --- 
 # FINAL PROJECT - PROPERTY VALUE ESTIMATION USING REGRESSION MODEL
 
