@@ -1,7 +1,4 @@
-##### DISCLAIMER : THIS PROJECT IS STILL SUBJECT TO REVISION / CHANGE 
-#### UPDATE : The .ipynb files are final, however the documents in 'Presentation' folder still subject to revision. (Thursday, June 3rd 2021 16:43)
---- 
-# FINAL PROJECT - PROPERTY VALUE ESTIMATION USING REGRESSION MODEL
+ # FINAL PROJECT - PROPERTY VALUE ESTIMATION USING REGRESSION MODEL
 
 by: PURWADHIKA JCDS 1202 - MATPLOTLIB TEAM 
 - Lis Cory
@@ -73,13 +70,12 @@ and the approach to generalization is a model-based learning. We will feed the d
 parameters to fit the model, and then hopefully it will be able to make good predictions on future/unknown instances.
 
 ### Risk
-As the output of this project would be a range of price, there are two possible risk that may be caused by wrong prediction from the ML model:
-- The first scenario is when the actual value of the property is higher than the prediction value, this could cause MPL Bank to reject giving loan and thus resulting in loss of potential borrower.
-- The second scenario is when the actual value of the property is lower than prediction value (the model gives under appraised[10] value), this could cause MPL Bank to suffer loss when the borrower is unable to pay back the loan.
+There are two possible risk that may be caused by wrong prediction from the ML model:
+- The first scenario is when the actual value of the property is higher than the prediction value (the model gives under appraised[10] value), this could cause MPL Bank to reject giving loan and thus resulting in loss of potential borrower.
+- The second scenario is when the actual value of the property is lower than prediction value, this could cause MPL Bank to suffer loss when the borrower is unable to pay back the loan.
 
 ### Performance Measure
-The performance measures to evaluate the ML model are Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), 
-the Coefficient of Determination (R²). 
+The performance measures to evaluate the ML model are Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), Median Absolute Error and the Coefficient of Determination (R²). 
 
 ## 5. Action
 The business user can utilize the prediction result by comparing it with the appraisal value given by the AMC to determine a reasonable property value.
@@ -89,6 +85,9 @@ The business user can utilize the prediction result by comparing it with the app
 The values created from the project are the improvement in the underwriting process and the maximized profit from giving the right appraisal and making 
 the right decision in providing loan.
 
+#### Additional Value
+It is well known that there are a lot of people who treat property market as an investment instrument and there are cases in which the investor and appraiser collide to lower the property value in order to help investors to acquire the property. Thus, we hope this project could also protect <b>property owners</> by providing fair and reliable property valuation prediction.
+  
 ---
 
 # II. Data Understanding
@@ -126,6 +125,8 @@ Please refer to: <a href='https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS
 # V. Evaluation
 
 We use CatBoost Regressor as our final model as it gives the best r-squared (R²) results in both training and validation set and the lowest MAE compared with other models.
+In this project, we are expected by the business user to make an initial model with Mean Absolute Error (MAE) metrics of ±12% to mean property price and Median Absolute Error of ±12% to median property price.
+
 <p float="center ">
 <img src="https://github.com/PurwadhikaDev/MatplotlibGroup_JC_DS_12_FinalProject/blob/main/Model/Model.png" width="500" />
   
